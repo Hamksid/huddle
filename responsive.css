@@ -1,0 +1,56 @@
+@media (max-width: 900px) {
+  #header {
+    background: url(image/bg-hero-mobile.svg);
+    background-color: #edfbfe;
+    height: 160%;
+  }
+
+  #nav img {
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #nav h4 {
+    border: 1px solid;
+    width: 180px;
+    border-radius: 20px;
+    margin-right: -20px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  #head {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #head img {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 92%;
+  }
+
+  #Fans h4 {
+    margin-left: 20%;
+  }
+
+  #grow{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 130%;
+  }
+
+  #grow div{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #grow img{
+    width: 90%;
+  }
+
+}

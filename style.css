@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vww;
+    height: 100vh;
+    font-size: 18px;
+}
+
+#header{
+  background: url(image/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+  height: 85vh;
+}
+
+#nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#nav h4{
+    border: 1px solid;
+    width: 180px;
+    border-radius: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-size: 23px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#Fans h4{
+    margin-top: 30px;
+    border-radius: 25px;
+    background: rgb(231, 25, 60);
+    text-align: center;
+    width:60%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Fans span{
+    display: block;
+}
+
+#grow span{
+    display: block;
+}
+
+#grow div{
+    align-self: center;
+}
+
+#grow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    box-shadow: 2px 1px 7px 1px;
+}
