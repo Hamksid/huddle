@@ -8,12 +8,13 @@ body{
     width: 100vww;
     height: 100vh;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header{
   background: url(image/bg-hero-desktop.svg);
   background-color: #edfbfe;
-  height: 85vh;
+  height: 100vh;
 }
 
 #nav{
@@ -38,8 +39,16 @@ body{
     margin-left: 50px;
     font-size: 23px;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 30px;
+}
+
+#Fans{
+    font-weight: 500;
+}
+
+#Fans h3{
+    font-weight: 700;
 }
 
 #Fans h4{
@@ -61,6 +70,10 @@ body{
     display: block;
 }
 
+#grow div h3{
+    font-weight: 700;
+}
+
 #grow div{
     align-self: center;
 }
@@ -71,6 +84,7 @@ body{
     width: 80%;
     border-radius: 15px;
     margin-left: 10%;
+    font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 22px;
