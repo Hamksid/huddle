@@ -37,8 +37,9 @@
   }
 
   #grow{
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 10%;
+    width: 80%;
+    height: 90%;
     margin-bottom: 10%;
     display: flex;
     flex-direction: column-reverse;
@@ -82,6 +83,22 @@
         display:inline;
     }
     
+    #foo{
+        margin-bottom: 5%;
+        margin-left: 20%;
+    }
+    #foo p{
+        text-align: center;
+        width: 100%;
+    }
+
+    #log{
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+    #log div {
+        margin-left: 60%;
+    }
     #copy{
         margin: auto;
     }
